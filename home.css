@@ -1,0 +1,486 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button{
+    cursor: pointer;
+}
+
+body{
+    background: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 20;
+    width: 100%;
+}
+.links{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.links ul{
+    display: flex;
+    align-items: center;
+}
+
+.links img{
+    width: 200px;
+    height: 80px;
+}
+
+.links ul li{
+    padding-left: 20px;
+    list-style-type: none;
+}
+
+.links ul a{
+    font-size: 31px;
+    text-decoration: none;
+    color: white;
+}
+
+.links ul select{
+    width: 100px;
+    height: 50px;
+    background: none;
+    color: white;
+    border: none;
+    display: flex;
+    font-size: 15px;
+    outline: none;
+}
+
+.links ul select option{
+    background: black;
+}
+
+.languages a{
+    text-decoration: none;
+    color: white;
+}
+.free_game_logo button{
+    background: white;
+    width: 270px;
+    height: 50px;
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0);
+    border: 1px white solid;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.languages{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+     font-size: 25px;
+    height: 10%;
+}
+.box2{
+    display: flex;
+    flex-wrap:nowrap;
+    margin-right: 10px;
+}
+
+.free_game_logo button img{
+    height:30px;
+    width:30px;
+}
+.section1video video{
+    filter: brightness(40%);
+    position: relative;
+    z-index: 1;
+    width:100%;
+}
+
+.section1Content{
+    height: 900px;
+    width: 100%;
+    z-index: 5;
+    position: relative;
+    margin-top: -950px;
+    color: white;
+}
+
+.section1ContentText h1 {
+    width: 200px;
+    margin-left: 200px;
+    font-size: 40px;
+}
+.section1ContentText h3{
+    margin-left: 200px;
+    color: rgba(173, 173, 173, 0.53);
+}
+
+.section1ContentText button img{
+    width: 50px;
+    height: 50px;
+}
+.section1ContentText button{
+    display: flex;
+    align-items: center;
+    border: white 2px solid;
+    background: rgba(255, 255, 255, 0);
+    margin-left: 200px;
+}
+.section1textbutton{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section1textbutton h2{
+    color: white;
+}
+
+.section1textbutton h4{
+    color: #1e1e1e;
+}
+
+.section1ContentBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 400px;
+}
+
+.section1ContentBox1{
+    display: flex;
+    width: 1200px;
+    height: 275px;
+    border: 2px white solid;
+    align-items: center;
+    justify-content: space-around;
+}
+.section1ContentBox1Box1{
+    width:370px;
+    height:243px;
+    border: 2px white solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1ContentBox1Box1 img{
+    width:370px;
+    height:243px;
+}
+.section1ContentBox1Box1 p {
+
+                                animation-name:mt ;
+                                animation-duration: 2s;
+                            }
+
+
+@keyframes mt  {
+    from{
+        margin-top: 0;
+    }
+
+    to {
+        margin-top: -100px;
+    }
+}
+
+.section2img img{
+    width: 100%;
+    height:1005px;
+    margin-top: 125px;
+    z-index: 1;
+    filter: brightness(40%);
+}
+
+.section3img img{
+    width: 100%;
+    height:1700px;
+    margin-top: 125px;
+    z-index: 1;
+}
+.section2ContentText{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    margin-top: -950px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+     flex-direction: column;
+    display: flex;
+}
+
+.section2ContentText h1{
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 75px;
+}
+
+.section2ContentText h3{
+    color: #f8efe6;
+    font-size: 100px;
+}
+
+.section2ContentTextBox1{
+    width: 1000px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section2ContentTextBox1 p{
+    color: #f3eae2;
+    font-size: 27px;
+}
+
+.section2ContentTextBox1 button{
+    width: 259px;
+    height: 65px;
+    background: none;
+    color: white;
+    border: 3px rgba(255, 255, 255, 0.2) solid;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.section3ContentText{
+    height: 900px;
+    width: 100%;
+    position: relative;
+    margin-top: -950px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.section3ContentText h1{
+    color: rgba(255, 255, 255, 0.62);
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.section3ContentText h3{
+    color: #f8efe6;
+    font-size: 110px;
+}
+
+.section3ContentTextBox1{
+    width: 1000px;
+    height: 255px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.section3ContentTextBox1 p{
+    color: #f3eae2;
+    font-size: 27px;
+}
+
+.section3ContentTextBox1 button{
+    width: 150px;
+    height: 65px;
+    background: none;
+    color: white;
+    border: 3px rgba(255, 255, 255, 0.2) solid;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+
+}
+.element-animation {
+    margin: 2rem 0;
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.element-animation.element-show {
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateY(0%);
+}
+
+.section5img img{
+    width: 100%;
+    height: 1300px;
+    margin-left: 25px;
+}
+.psAbslute{
+    position: absolute;
+}
+.section5img1 img{
+    height: 199px;
+    width: 298px;
+    margin-top: 200px;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.section5img2 img{
+    width: 600px;
+    height: 360px;
+    margin-top: 400px;
+    margin-left: 2000px;
+}
+
+.section5img3 img{
+    width: 398px;
+    height: 265px;
+    margin-top: 700px;
+}
+
+.section5Content img{
+    height: 200px;
+    width: 200px;
+}
+
+.section5Band{
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #ff6046;
+    border-radius: 1px;
+}
+
+.section6Band{
+    width: 80px;
+    height: 3px;
+    min-height: 3px;
+    background-color: #ff6046;
+    border-radius: 1px;
+}
+
+
+.section5Content img{
+    width: 96px;
+    height: 96px;
+}
+
+.section5Content{
+    z-index: 3;
+    position: relative;
+    color: white;
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section5Box{
+    width: 100%;
+    height: 1150px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.section5Content h1{
+    font-size: 70px;
+    color: rgba(226,218,206,.5647058824);
+}
+
+.section5Content h2{
+    font-size: 100px;
+    color: #e2dace;
+}
+
+.section5Content h3{
+    color: #e2dace;
+    font-size: 26px;
+}
+
+.section6{
+    color: white;
+    width: 100%;
+}
+
+.section6Content{
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.section6ContentBox{
+    width: 100%;
+    height: 400px;
+    margin-top: 200px;
+}
+
+.section6ContentBox img{
+    width: 100%;
+    height: 600px;
+    z-index: 1;
+    position: absolute;
+}
+
+.section6Content h1{
+    font-size: 70px;
+    color: rgba(226,218,206,.5647058824);
+}
+
+.section6Content h2{
+    font-size: 100px;
+    color: #e2dace;
+}
+
+.section6Content button{
+    text-decoration: none;
+    color: white;
+    background: none;
+    width: 278px;
+    height: 60px;
+    border: rgba(255, 255, 255, 0.295) 3px solid;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.section6Content button:hover{
+    background-color: #ffff;
+    color: #1e1e1e;
+}
+
+.section7{
+    text-align: center;
+    width: 100%;
+    z-index: 5;
+    padding: 30px;
+    background-color: #000;
+    position: absolute;
+    margin-top: 150px;
+}
+.img1 {
+    width: 150px;
+    height: 40px;
+}
+
+.img2 {
+    width: 170px;
+    height: 40px;
+    margin-left: 65px;
+}
+
+.section7 h1{
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 500px;
+}
